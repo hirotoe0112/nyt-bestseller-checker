@@ -12,7 +12,7 @@ export class EventRule {
     return new events.Rule(this._scope, 'event', {
       schedule: events.Schedule.cron({
         minute: '0',
-        hour: '20',
+        hour: '23',
         weekDay: '5', // 金曜日
         month: '*',
         year: '*',
