@@ -13,7 +13,7 @@ export class EventRule {
       schedule: events.Schedule.cron({
         minute: '0',
         hour: '23',
-        weekDay: '5', // 金曜日
+        weekDay: '6',
         month: '*',
         year: '*',
       })
